@@ -14,6 +14,14 @@
 		F640DBF71AA4518B005966A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F640DBF61AA4518B005966A5 /* Images.xcassets */; };
 		F640DBFA1AA4518B005966A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F640DBF81AA4518B005966A5 /* LaunchScreen.xib */; };
 		F640DC061AA4518B005966A5 /* KKPcollectionLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F640DC051AA4518B005966A5 /* KKPcollectionLayoutTests.m */; };
+		F640DC111AA46D5B005966A5 /* KKPCollectionlayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F640DC101AA46D5B005966A5 /* KKPCollectionlayout.m */; };
+		F67B9C771AAEB0E200D42C23 /* KKPPhotoCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67B9C761AAEB0E200D42C23 /* KKPPhotoCellView.xib */; };
+		F67B9C7A1AAEC6DA00D42C23 /* KKPCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F67B9C791AAEC6DA00D42C23 /* KKPCollectionViewController.m */; };
+		F67B9C7D1AAEC8B900D42C23 /* KKPPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F67B9C7C1AAEC8B900D42C23 /* KKPPhotoCell.m */; };
+		F6D3983B1AAF6D1A00B58015 /* KKPPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D3983A1AAF6D1A00B58015 /* KKPPhotoDetailViewController.m */; };
+		F6D3983E1AAF6F5700B58015 /* KKPTransitionFromCLVToPD.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D3983D1AAF6F5700B58015 /* KKPTransitionFromCLVToPD.m */; };
+		F6D398441AB0B7EB00B58015 /* KKPtableHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D398431AB0B7EB00B58015 /* KKPtableHeaderViewController.m */; };
+		F6D3984A1AB0C30300B58015 /* KKPTransitionFromPDToCLV.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D398491AB0C30300B58015 /* KKPTransitionFromPDToCLV.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +38,31 @@
 		F640DBE61AA4518B005966A5 /* KKPcollectionLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKPcollectionLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F640DBEA1AA4518B005966A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F640DBEB1AA4518B005966A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F640DBED1AA4518B005966A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F640DBEE1AA4518B005966A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F640DBF01AA4518B005966A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F640DBF11AA4518B005966A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F640DBED1AA4518B005966A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KKPcollectionLayout/AppDelegate.h; sourceTree = "<group>"; };
+		F640DBEE1AA4518B005966A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = KKPcollectionLayout/AppDelegate.m; sourceTree = "<group>"; };
+		F640DBF01AA4518B005966A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = KKPcollectionLayout/ViewController.h; sourceTree = "<group>"; };
+		F640DBF11AA4518B005966A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = KKPcollectionLayout/ViewController.m; sourceTree = "<group>"; };
 		F640DBF41AA4518B005966A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F640DBF61AA4518B005966A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F640DBF61AA4518B005966A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KKPcollectionLayout/Images.xcassets; sourceTree = "<group>"; };
 		F640DBF91AA4518B005966A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F640DBFF1AA4518B005966A5 /* KKPcollectionLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKPcollectionLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F640DC041AA4518B005966A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F640DC051AA4518B005966A5 /* KKPcollectionLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKPcollectionLayoutTests.m; sourceTree = "<group>"; };
+		F640DC0F1AA46D5B005966A5 /* KKPCollectionlayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPCollectionlayout.h; sourceTree = "<group>"; };
+		F640DC101AA46D5B005966A5 /* KKPCollectionlayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPCollectionlayout.m; sourceTree = "<group>"; };
+		F67B9C761AAEB0E200D42C23 /* KKPPhotoCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKPPhotoCellView.xib; sourceTree = "<group>"; };
+		F67B9C781AAEC6DA00D42C23 /* KKPCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPCollectionViewController.h; sourceTree = "<group>"; };
+		F67B9C791AAEC6DA00D42C23 /* KKPCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPCollectionViewController.m; sourceTree = "<group>"; };
+		F67B9C7B1AAEC8B900D42C23 /* KKPPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPPhotoCell.h; sourceTree = "<group>"; };
+		F67B9C7C1AAEC8B900D42C23 /* KKPPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPPhotoCell.m; sourceTree = "<group>"; };
+		F6D398391AAF6D1A00B58015 /* KKPPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPPhotoDetailViewController.h; sourceTree = "<group>"; };
+		F6D3983A1AAF6D1A00B58015 /* KKPPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPPhotoDetailViewController.m; sourceTree = "<group>"; };
+		F6D3983C1AAF6F5700B58015 /* KKPTransitionFromCLVToPD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPTransitionFromCLVToPD.h; sourceTree = "<group>"; };
+		F6D3983D1AAF6F5700B58015 /* KKPTransitionFromCLVToPD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPTransitionFromCLVToPD.m; sourceTree = "<group>"; };
+		F6D398421AB0B7EB00B58015 /* KKPtableHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPtableHeaderViewController.h; sourceTree = "<group>"; };
+		F6D398431AB0B7EB00B58015 /* KKPtableHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPtableHeaderViewController.m; sourceTree = "<group>"; };
+		F6D398481AB0C30300B58015 /* KKPTransitionFromPDToCLV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPTransitionFromPDToCLV.h; sourceTree = "<group>"; };
+		F6D398491AB0C30300B58015 /* KKPTransitionFromPDToCLV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPTransitionFromPDToCLV.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +86,13 @@
 		F640DBDD1AA4518A005966A5 = {
 			isa = PBXGroup;
 			children = (
+				F640DBED1AA4518B005966A5 /* AppDelegate.h */,
+				F640DBEE1AA4518B005966A5 /* AppDelegate.m */,
+				F640DBF01AA4518B005966A5 /* ViewController.h */,
+				F640DBF11AA4518B005966A5 /* ViewController.m */,
+				F640DBF31AA4518B005966A5 /* Main.storyboard */,
+				F640DBF61AA4518B005966A5 /* Images.xcassets */,
+				F640DBF81AA4518B005966A5 /* LaunchScreen.xib */,
 				F640DBE81AA4518B005966A5 /* KKPcollectionLayout */,
 				F640DC021AA4518B005966A5 /* KKPcollectionLayoutTests */,
 				F640DBE71AA4518B005966A5 /* Products */,
@@ -81,14 +111,22 @@
 		F640DBE81AA4518B005966A5 /* KKPcollectionLayout */ = {
 			isa = PBXGroup;
 			children = (
-				F640DBED1AA4518B005966A5 /* AppDelegate.h */,
-				F640DBEE1AA4518B005966A5 /* AppDelegate.m */,
-				F640DBF01AA4518B005966A5 /* ViewController.h */,
-				F640DBF11AA4518B005966A5 /* ViewController.m */,
-				F640DBF31AA4518B005966A5 /* Main.storyboard */,
-				F640DBF61AA4518B005966A5 /* Images.xcassets */,
-				F640DBF81AA4518B005966A5 /* LaunchScreen.xib */,
+				F6D3983C1AAF6F5700B58015 /* KKPTransitionFromCLVToPD.h */,
+				F6D3983D1AAF6F5700B58015 /* KKPTransitionFromCLVToPD.m */,
+				F6D398391AAF6D1A00B58015 /* KKPPhotoDetailViewController.h */,
+				F6D3983A1AAF6D1A00B58015 /* KKPPhotoDetailViewController.m */,
+				F67B9C7B1AAEC8B900D42C23 /* KKPPhotoCell.h */,
+				F67B9C7C1AAEC8B900D42C23 /* KKPPhotoCell.m */,
+				F67B9C781AAEC6DA00D42C23 /* KKPCollectionViewController.h */,
+				F67B9C791AAEC6DA00D42C23 /* KKPCollectionViewController.m */,
+				F67B9C761AAEB0E200D42C23 /* KKPPhotoCellView.xib */,
+				F640DC0F1AA46D5B005966A5 /* KKPCollectionlayout.h */,
+				F640DC101AA46D5B005966A5 /* KKPCollectionlayout.m */,
 				F640DBE91AA4518B005966A5 /* Supporting Files */,
+				F6D398421AB0B7EB00B58015 /* KKPtableHeaderViewController.h */,
+				F6D398431AB0B7EB00B58015 /* KKPtableHeaderViewController.m */,
+				F6D398481AB0C30300B58015 /* KKPTransitionFromPDToCLV.h */,
+				F6D398491AB0C30300B58015 /* KKPTransitionFromPDToCLV.m */,
 			);
 			path = KKPcollectionLayout;
 			sourceTree = "<group>";
@@ -199,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67B9C771AAEB0E200D42C23 /* KKPPhotoCellView.xib in Resources */,
 				F640DBF51AA4518B005966A5 /* Main.storyboard in Resources */,
 				F640DBFA1AA4518B005966A5 /* LaunchScreen.xib in Resources */,
 				F640DBF71AA4518B005966A5 /* Images.xcassets in Resources */,
@@ -219,9 +258,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F640DC111AA46D5B005966A5 /* KKPCollectionlayout.m in Sources */,
+				F67B9C7A1AAEC6DA00D42C23 /* KKPCollectionViewController.m in Sources */,
+				F6D3983B1AAF6D1A00B58015 /* KKPPhotoDetailViewController.m in Sources */,
+				F6D398441AB0B7EB00B58015 /* KKPtableHeaderViewController.m in Sources */,
 				F640DBF21AA4518B005966A5 /* ViewController.m in Sources */,
 				F640DBEF1AA4518B005966A5 /* AppDelegate.m in Sources */,
 				F640DBEC1AA4518B005966A5 /* main.m in Sources */,
+				F6D3984A1AB0C30300B58015 /* KKPTransitionFromPDToCLV.m in Sources */,
+				F6D3983E1AAF6F5700B58015 /* KKPTransitionFromCLVToPD.m in Sources */,
+				F67B9C7D1AAEC8B900D42C23 /* KKPPhotoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +296,7 @@
 				F640DBF41AA4518B005966A5 /* Base */,
 			);
 			name = Main.storyboard;
+			path = KKPcollectionLayout;
 			sourceTree = "<group>";
 		};
 		F640DBF81AA4518B005966A5 /* LaunchScreen.xib */ = {
@@ -258,6 +305,7 @@
 				F640DBF91AA4518B005966A5 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = KKPcollectionLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,6 +462,7 @@
 				F640DC0B1AA4518B005966A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F640DC0C1AA4518B005966A5 /* Build configuration list for PBXNativeTarget "KKPcollectionLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +471,7 @@
 				F640DC0E1AA4518B005966A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
