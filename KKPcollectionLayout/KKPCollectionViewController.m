@@ -67,10 +67,10 @@ static NSString * const reuseIdentifier = @"KKPPhotoCell";
         NSIndexPath *selectedIndexPath = [[self.collectionView indexPathsForSelectedItems] firstObject];
         NSLog(@"prepareForSegue");
         // Set the thing on the view controller we're about to show
-        if (selectedIndexPath != nil) {
+   
             KKPPhotoDetailViewController *secondViewController = segue.destinationViewController;
             secondViewController.fromIndex=selectedIndexPath;
-        }
+  
     }
 
 }
