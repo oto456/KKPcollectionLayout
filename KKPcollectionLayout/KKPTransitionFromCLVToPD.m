@@ -54,7 +54,7 @@
         toViewController.view.hidden = NO;
         cell.hidden = NO;
         [cellImageSnapshot removeFromSuperview];
-        // Declare that we've finished
+        // 宣布完成
         [transitionContext completeTransition:!transitionContext.transitionWasCancelled];
 
     }];

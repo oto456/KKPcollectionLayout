@@ -24,6 +24,7 @@
     if (460==[[UIScreen mainScreen] applicationFrame].size.height) {
         self.numberOfColumns = 2;
     }
+    
     self.interItemSpacing = 12.5;
     
     self.lastYValueForColumn = [NSMutableDictionary dictionary];

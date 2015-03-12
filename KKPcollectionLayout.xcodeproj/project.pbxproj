@@ -113,6 +113,8 @@
 			children = (
 				F6D3983C1AAF6F5700B58015 /* KKPTransitionFromCLVToPD.h */,
 				F6D3983D1AAF6F5700B58015 /* KKPTransitionFromCLVToPD.m */,
+				F6D398481AB0C30300B58015 /* KKPTransitionFromPDToCLV.h */,
+				F6D398491AB0C30300B58015 /* KKPTransitionFromPDToCLV.m */,
 				F6D398391AAF6D1A00B58015 /* KKPPhotoDetailViewController.h */,
 				F6D3983A1AAF6D1A00B58015 /* KKPPhotoDetailViewController.m */,
 				F67B9C7B1AAEC8B900D42C23 /* KKPPhotoCell.h */,
@@ -125,8 +127,6 @@
 				F640DBE91AA4518B005966A5 /* Supporting Files */,
 				F6D398421AB0B7EB00B58015 /* KKPtableHeaderViewController.h */,
 				F6D398431AB0B7EB00B58015 /* KKPtableHeaderViewController.m */,
-				F6D398481AB0C30300B58015 /* KKPTransitionFromPDToCLV.h */,
-				F6D398491AB0C30300B58015 /* KKPTransitionFromPDToCLV.m */,
 			);
 			path = KKPcollectionLayout;
 			sourceTree = "<group>";
@@ -206,6 +206,7 @@
 				TargetAttributes = {
 					F640DBE51AA4518B005966A5 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = Y7M4K3AU56;
 					};
 					F640DBFE1AA4518B005966A5 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -328,6 +329,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lei Gao (7ZFWRY5823)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -370,6 +372,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lei Gao (7ZFWRY5823)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -393,7 +396,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lei Gao (7ZFWRY5823)";
 				INFOPLIST_FILE = KKPcollectionLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -403,7 +408,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lei Gao (7ZFWRY5823)";
 				INFOPLIST_FILE = KKPcollectionLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

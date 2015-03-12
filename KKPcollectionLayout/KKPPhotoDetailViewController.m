@@ -167,39 +167,31 @@ heightForRowAtIndexPath:(NSIndexPath *)indexPath
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     
-    //    // 假设偏移表格高度的20%进行刷新
-    //
-    //
-    //
-    //    if (!_isLoading) { // 判断是否处于刷新状态，刷新中就不执行
-    //
-    //
-    //
-    //        // 取内容的高度：
-    //
-    //        //    如果内容高度大于UITableView高度，就取TableView高度
-    //
-    //        //    如果内容高度小于UITableView高度，就取内容的实际高度
-    //
-    //        float height = scrollView.contentSize.height > _tableView.frame.size.height ?_tableView.frame.size.height : scrollView.contentSize.height;
-    //
-    //
-    //
-    //        if ((height - scrollView.contentSize.height + scrollView.contentOffset.y) / height > 0.2) {
-    //
-    //            // 调用上拉刷新方法
-    //
-    //        }
-    //
-    //
-    //
-    //        if (- scrollView.contentOffset.y / _tableView.frame.size.height > 0.2) {
-    //            
-    //            // 调用下拉刷新方法
-    //            
-    //        }
-    //        
-    //    }
+        // 假设偏移表格高度的20%进行刷新
+    
+    
+    
+    
+            float height = scrollView.contentSize.height > _tableView.frame.size.height ?_tableView.frame.size.height : scrollView.contentSize.height;
+    
+    
+    
+//            if ((height - scrollView.contentSize.height + scrollView.contentOffset.y) / height > 0.2) {
+//    
+//                // 调用上拉刷新方法
+//    
+//            }
+//    
+    
+    
+            if (- scrollView.contentOffset.y / _tableView.frame.size.height > 0.25) {
+                
+                // 调用下拉刷新方法
+                [self.navigationController popViewControllerAnimated:YES];
+                
+            }
+            
+    
     
 }
 
