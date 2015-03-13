@@ -47,10 +47,22 @@
     popRecognizer.edges = UIRectEdgeLeft;
     [self.view addGestureRecognizer:popRecognizer];
     
+    //要用自己实现的back按钮，因为发现如果画面下拉之后back 会出现野指针。所以点击back时 要先跳转到顶部。
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStylePlain target:self action:@selector(backClick)];
     
     // Do any additional setup after loading the view.
 }
 
+
+
+-(void)backClick
+{
+    //先将视图跳转到顶部。不然会造成野指针。两种方法如下
+    [self.tableView setContentOffset:CGPointMake(0, 0) animated:YES];
+//    [_tableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:YES];
+
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
